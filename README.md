@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/mdify.sh.git
+git clone https://github.com/theokyr/mdify-sh.git
 cd mdify.sh
 chmod +x mdify.sh
 ```
