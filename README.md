@@ -24,7 +24,7 @@ chmod +x mdify.sh
 
 ## Examples
 
-Write the contents of all `.cpp` and `.h` files in `./src` to `output.md`:
+Write the contents of all `.cpp` and `.java` files in `./src` to `output.md`:
 
 ```bash
 ./mdify.sh ./src output.md cpp,java
