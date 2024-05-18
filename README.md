@@ -24,10 +24,22 @@ chmod +x mdify.sh
 
 ## Examples
 
-Convert all `.cpp` and `.h` files in `./src` to `output.md`:
+Write the contents of all `.cpp` and `.h` files in `./src` to `output.md`:
 
 ```bash
-./mdify.sh ./src output.md cpp,h
+./mdify.sh ./src output.md cpp,java
+```
+
+Contents of `output.md`:
+```markdown
+**`./main.cpp`:**
+... file contents as a cpp code block ...
+
+**`./src/java/com/domain/app/Application.java`:**
+... file contents as a java code block ...
+
+**`./src/java/com/domain/app/services/Service.java`:**
+... file contents as a java code block ...
 ```
 
 ## Contribution

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: ./mdify <directory> <output_file> <extensions>
+# Usage: ./mdify.sh <directory> <output_file> <extensions>
 
 if [ "$#" -ne 3 ]; then
     echo "Usage: $0 <directory> <output_file> <extensions>"
