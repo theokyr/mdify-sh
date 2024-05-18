@@ -32,7 +32,7 @@ Write the contents of all `.cpp` and `.java` files in `./src` to `output.md`:
 
 Contents of `output.md`:
 ```markdown
-**`./main.cpp`:**
+**`./src/main.cpp`:**
 ... file contents as a cpp code block ...
 
 **`./src/java/com/domain/app/Application.java`:**
